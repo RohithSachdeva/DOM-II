@@ -102,6 +102,12 @@ function logKey(e) {
   console.log.textContent += ` ${e.code}`;
 };
 
+const foot = document.querySelector('.footer');
+  foot.addEventListener('mouseover', () => {
+    foot.style.backgroundColor = 'black';
+  });
+
+
 
 
 navigationLinks.addEventListener("click", function(event){
