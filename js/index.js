@@ -103,7 +103,7 @@ function logKey(e) {
 };
 
 const foot = document.querySelector('.footer');
-  foot.addEventListener('mouseover', () => {
+  foot.addEventListener('wheel', () => {
     foot.style.backgroundColor = 'black';
   });
 
